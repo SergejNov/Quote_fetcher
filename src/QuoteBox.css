@@ -1,8 +1,4 @@
 
-/* .h1 {
-    font-size: 36px;
-    
-} */
  .h1 {
     font-size: 2rem; 
     text-align: center;
@@ -36,17 +32,35 @@ h2 {
     max-width: 700px;
     height: auto;
     border-radius: 30px;
-    margin: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 90%; /* This makes it fluid on smaller screens */
+    margin: 10px auto;
     
 }
 
-@media screen {
-  
+@media (max-width: 600px) {
+  .mainBox {
+    padding: 15px; /* Slightly reduce padding on very small screens */
+    margin: 10px; /* Ensure consistent margin */
+    width: 95%; /* Use a bit more width on mobile */
+  }
+
+  .author-container {
+    align-self: center; /* Center the author on mobile instead of far right */
+    margin-right: 0; /* Remove the right margin */
+  }
+
+  /* Optional: Slightly reduce font sizes for mobile */
+  h2 {
+    font-size: 1.3rem;
+  }
+  .quote-author {
+    font-size: 1.1rem;
+  }
 }
 
 .btn {
