@@ -1,6 +1,6 @@
 
 import './App.css'
-import QuoteFet from './quoteFet'
+import QuoteFet from './QuoteFet'
 
 function App() {
 
