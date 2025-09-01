@@ -1,12 +1,33 @@
-# React + Vite
+# 🌟 Random Quote Fetcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## View Live Demo
 
-Currently, two official plugins are available:
+https://quote-fetcher-five.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A sleek and responsive web application that inspires users with random quotes fetched from an external API. Built with React and Vite.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Random Quotes:** Fetches a new, random quote with a single click.
+- **Author Attribution:** Displays the author of each quote.
+- **Elegant UI:** Features a clean, card-based design with a soothing color scheme.
+- **Fully Responsive:** Optimized for both desktop and mobile devices.
+- **Interactive Elements:** Includes a smooth hover effect on the "New Quote" button.
+
+## Technologies Used
+
+- React
+- Vite
+- CSS3
+- Quotable API
+
+## Getting Started
+
+1.  Clone this repository: `git clone https://github.com/YourUsername/Quote_fetcher.git`
+2.  Install dependencies: `npm install`
+3.  Start the development server: `npm run dev`
+4.  Open your browser and navigate to the localhost address provided
+
+## API Reference
+
+This app uses the [Quotable API](https://api.quotable.io) to fetch random quotes.
