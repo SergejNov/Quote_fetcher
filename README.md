@@ -23,7 +23,7 @@ A sleek and responsive web application that inspires users with random quotes fe
 
 ## Getting Started
 
-1.  Clone this repository: `git clone https://github.com/YourUsername/Quote_fetcher.git`
+1.  Clone this repository: `git clone https://github.com/SergejNov/Quote_fetcher.git`
 2.  Install dependencies: `npm install`
 3.  Start the development server: `npm run dev`
 4.  Open your browser and navigate to the localhost address provided
